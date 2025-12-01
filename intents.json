@@ -1,0 +1,440 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "hola",
+                "qué tal",
+                "como estás",
+                "saludos"
+            ],
+            "responses": [
+                "Hola! ¿En qué te puedo ayudar?",
+                "Hola! Dime, ¿cómo te sientes?"
+            ]
+        },
+        {
+            "tag": "nombre",
+            "patterns": [
+                "quién eres",
+                "cómo te llamas",
+                "con quien hablo"
+            ],
+            "responses": [
+                "Soy SaludMed, a tu servicio, ¿qué sintomas tienes?",
+                "Dime, ¿cómo te sientes?"
+            ]
+        },
+        {
+            "tag": "fiebre",
+            "patterns": [
+                "estoy con fiebre",
+                "tengo fiebre",
+                "me siento caliente"
+            ],
+            "responses": [
+                "Te recomiendo tomar paracetamol.",
+                "Intenta con ibuprofeno para bajar la fiebre."
+            ]
+        },
+        {
+            "tag": "dolor_garganta",
+            "patterns": [
+                "tengo dolor de garganta",
+                "me duele la garganta",
+                "siento picazón en la garganta"
+            ],
+            "responses": [
+                "Te sugiero hacer gárgaras con agua salada.",
+                "Puedes tomar un poco de miel con limón para aliviar el dolor."
+            ]
+        },
+        {
+            "tag": "dolor_cabeza",
+            "patterns": [
+                "tengo dolor de cabeza",
+                "me duele la cabeza",
+                "siento presión en la cabeza"
+            ],
+            "responses": [
+                "Intenta con un analgésico como el paracetamol.",
+                "El ibuprofeno puede ayudarte a aliviar el dolor de cabeza."
+            ]
+        },
+        {
+            "tag": "tos",
+            "patterns": [
+                "tengo tos",
+                "me duele el pecho al toser",
+                "siento que no puedo parar de toser"
+            ],
+            "responses": [
+                "Te sugiero tomar un jarabe para la tos.",
+                "La miel con limón también puede ayudarte a calmar la tos."
+            ]
+        },
+        {
+            "tag": "dolor_estomago",
+            "patterns": [
+                "tengo dolor de estómago",
+                "me duele el estómago",
+                "siento náuseas"
+            ],
+            "responses": [
+                "Intenta con un antiácido como el omeprazol.",
+                "El té de jengibre puede aliviar el malestar estomacal."
+            ]
+        },
+        {
+            "tag": "congestion_nasal",
+            "patterns": [
+                "tengo congestión nasal",
+                "no puedo respirar por la nariz",
+                "mi nariz está tapada"
+            ],
+            "responses": [
+                "Puedes usar un spray nasal de solución salina.",
+                "Intenta con un descongestionante como la pseudoefedrina."
+            ]
+        },
+        {
+            "tag": "alergias",
+            "patterns": [
+                "tengo alergias",
+                "me pica la nariz",
+                "me lloran los ojos"
+            ],
+            "responses": [
+                "Te recomiendo tomar un antihistamínico como la loratadina.",
+                "La cetirizina también puede ayudar con las alergias."
+            ]
+        },
+        {
+            "tag": "diarrea",
+            "patterns": [
+                "tengo diarrea",
+                "voy mucho al baño",
+                "no puedo parar de ir al baño"
+            ],
+            "responses": [
+                "Te sugiero tomar loperamida.",
+                "Mantente hidratado bebiendo muchos líquidos."
+            ]
+        },
+        {
+            "tag": "estreñimiento",
+            "patterns": [
+                "tengo estreñimiento",
+                "no puedo ir al baño",
+                "me cuesta evacuar"
+            ],
+            "responses": [
+                "Intenta con un laxante como el bisacodilo.",
+                "El consumo de fibra y agua puede ayudarte."
+            ]
+        },
+        {
+            "tag": "mareos",
+            "patterns": [
+                "me siento mareado",
+                "tengo mareos",
+                "siento que todo da vueltas"
+            ],
+            "responses": [
+                "Te recomiendo descansar y evitar movimientos bruscos.",
+                "La meclizina puede ayudar a aliviar los mareos."
+            ]
+        },
+        {
+            "tag": "ansiedad",
+            "patterns": [
+                "tengo ansiedad",
+                "me siento ansioso",
+                "siento mucha ansiedad"
+            ],
+            "responses": [
+                "Intenta técnicas de respiración y relajación.",
+                "Habla con un profesional de la salud para obtener ayuda."
+            ]
+        },
+        {
+            "tag": "insomnio",
+            "patterns": [
+                "no puedo dormir",
+                "tengo insomnio",
+                "me cuesta conciliar el sueño"
+            ],
+            "responses": [
+                "Te recomiendo mantener una rutina de sueño regular.",
+                "La melatonina puede ayudarte a dormir mejor."
+            ]
+        },
+        {
+            "tag": "resfriado",
+            "patterns": [
+                "tengo un resfriado",
+                "me siento resfriado",
+                "creo que tengo un resfriado"
+            ],
+            "responses": [
+                "Descansa y bebe muchos líquidos.",
+                "Los analgésicos como el paracetamol pueden ayudar con los síntomas."
+            ]
+        },
+        {
+            "tag": "cansancio",
+            "patterns": [
+                "me siento cansado",
+                "estoy muy cansado",
+                "no tengo energía"
+            ],
+            "responses": [
+                "Descansa y asegúrate de dormir lo suficiente.",
+                "Una dieta equilibrada y ejercicio regular pueden aumentar tu energía."
+            ]
+        },
+        {
+            "tag": "dolor_muscular",
+            "patterns": [
+                "tengo dolor muscular",
+                "me duelen los músculos",
+                "siento dolor en los músculos"
+            ],
+            "responses": [
+                "Te recomiendo tomar ibuprofeno.",
+                "El paracetamol también puede ayudar con el dolor muscular."
+            ]
+        },
+        {
+            "tag": "calambres",
+            "patterns": [
+                "tengo calambres",
+                "me dan calambres",
+                "siento calambres"
+            ],
+            "responses": [
+                "El magnesio puede ayudar a aliviar los calambres.",
+                "Estira bien antes y después del ejercicio."
+            ]
+        },
+        {
+            "tag": "acidez_estomacal",
+            "patterns": [
+                "tengo acidez",
+                "siento acidez",
+                "me quema el estómago"
+            ],
+            "responses": [
+                "Te sugiero tomar un antiácido como el omeprazol.",
+                "Evita comidas picantes y grasosas."
+            ]
+        },
+        {
+            "tag": "falta_apetito",
+            "patterns": [
+                "no tengo apetito",
+                "me falta apetito",
+                "no tengo hambre"
+            ],
+            "responses": [
+                "Intenta comer pequeñas cantidades de alimentos nutritivos.",
+                "Consulta con un profesional de la salud si la falta de apetito persiste."
+            ]
+        },
+        {
+            "tag": "erupciones_piel",
+            "patterns": [
+                "tengo erupciones en la piel",
+                "me salieron ronchas",
+                "tengo sarpullido"
+            ],
+            "responses": [
+                "Aplica una crema antihistamínica.",
+                "La hidrocortisona puede ayudar a reducir la inflamación."
+            ]
+        },
+        {
+            "tag": "ojos_secos",
+            "patterns": [
+                "tengo los ojos secos",
+                "siento sequedad en los ojos",
+                "me pican los ojos"
+            ],
+            "responses": [
+                "Usa lágrimas artificiales para aliviar la sequedad.",
+                "Evita ambientes con humo o polvo."
+            ]
+        },
+        {
+            "tag": "dolor_espalda",
+            "patterns": [
+                "tengo dolor de espalda",
+                "me duele la espalda",
+                "siento dolor en la espalda"
+            ],
+            "responses": [
+                "El paracetamol puede ayudar con el dolor de espalda.",
+                "Los estiramientos y el ejercicio pueden aliviar el dolor."
+            ]
+        },
+        {
+            "tag": "sinusitis",
+            "patterns": [
+                "tengo sinusitis",
+                "me duelen los senos paranasales",
+                "siento presión en la cara"
+            ],
+            "responses": [
+                "Un descongestionante como la pseudoefedrina puede ayudar.",
+                "Inhala vapor para aliviar la congestión."
+            ]
+        },
+        {
+            "tag": "dolor_muela",
+            "patterns": [
+                "tengo dolor de muela",
+                "me duele una muela",
+                "siento dolor en una muela"
+            ],
+            "responses": [
+                "Te recomiendo tomar ibuprofeno.",
+                "Consulta con un dentista para evaluar el problema."
+            ]
+        },
+        {
+            "tag": "hemorroides",
+            "patterns": [
+                "tengo hemorroides",
+                "me duelen las hemorroides",
+                "siento dolor en el recto"
+            ],
+            "responses": [
+                "Una crema para hemorroides puede ayudar a aliviar el dolor.",
+                "Aumenta tu consumo de fibra y agua."
+            ]
+        },
+        {
+            "tag": "fatiga",
+            "patterns": [
+                "me siento fatigado",
+                "tengo mucha fatiga",
+                "siento cansancio extremo"
+            ],
+            "responses": [
+                "Descansa adecuadamente y mantén una dieta equilibrada.",
+                "Consulta con un profesional de la salud si la fatiga persiste."
+            ]
+        },
+        {
+            "tag": "problemas_respiratorios",
+            "patterns": [
+                "tengo dificultad para respirar",
+                "me cuesta respirar",
+                "siento que me falta el aire"
+            ],
+            "responses": [
+                "Usa un inhalador si tienes uno recetado. Te recomiendo sabutamol",
+                "Consulta con un médico inmediatamente."
+            ]
+        },
+        {
+            "tag": "palpitaciones",
+            "patterns": [
+                "siento palpitaciones",
+                "me late el corazón rápido",
+                "siento que el corazón me late fuerte"
+            ],
+            "responses": [
+                "Intenta técnicas de relajación y respiración profunda.",
+                "Consulta con un profesional de la salud si las palpitaciones persisten."
+            ]
+        },
+        {
+            "tag": "infeccion_orina",
+            "patterns": [
+                "tengo infección urinaria",
+                "me duele al orinar",
+                "siento ardor al orinar"
+            ],
+            "responses": [
+                "Bebe mucha agua para limpiar el tracto urinario.",
+                "Consulta con un médico para recibir un tratamiento antibiótico."
+            ]
+        },
+        {
+            "tag": "picazon_piel",
+            "patterns": [
+                "me pica la piel",
+                "siento picazón en la piel",
+                "tengo comezón"
+            ],
+            "responses": [
+                "Usa una crema antihistamínica para aliviar la picazón.",
+                "La loción de calamina puede ayudar a reducir la picazón."
+            ]
+        },
+        {
+            "tag": "new_symptom_32",
+            "patterns": [
+                "sida"
+            ],
+            "responses": [
+                "pegate un tiro"
+            ]
+        },
+        {
+            "tag": "new_symptom_33",
+            "patterns": [
+                "tengo dolor de ojos"
+            ],
+            "responses": [
+                "use un gotero"
+            ]
+        },
+        {
+            "tag": "new_symptom_34",
+            "patterns": [
+                "me caia a un pozo"
+            ],
+            "responses": [
+                "suba la escalera ps asqueroso"
+            ]
+        },
+        {
+            "tag": "new_symptom_35",
+            "patterns": [
+                "bien"
+            ],
+            "responses": [
+                "Me alegra que este bien :D"
+            ]
+        },
+        {
+            "tag": "new_symptom_36",
+            "patterns": [
+                "estoy preñado"
+            ],
+            "responses": [
+                ""
+            ]
+        },
+        {
+            "tag": "new_symptom_37",
+            "patterns": [
+                "estoy gordo"
+            ],
+            "responses": [
+                "deja la pizza"
+            ]
+        },
+        {
+            "tag": "new_symptom_38",
+            "patterns": [
+                "dolor de muela"
+            ],
+            "responses": [
+                "le recomiendo visitar a un dentista"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Satisfacción</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .survey-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-group input, .input-group textarea, .input-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .input-group textarea {
+            height: 100px;
+        }
+        .input-group button {
+            padding: 10px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="survey-container">
+        <h1>Encuesta de Satisfacción</h1>
+        <form id="surveyForm" action="/submit_survey" method="POST">
+            <div class="input-group">
+                <label for="fullName">Nombre Completo:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <div class="input-group">
+                <label for="satisfaction">Nivel de satisfacción:</label>
+                <select id="satisfaction" name="satisfaction" required>
+                    <option value="1">1 - Muy malo</option>
+                    <option value="2">2 - Malo</option>
+                    <option value="3">3 - Bueno</option>
+                    <option value="4">4 - Muy Bueno</option>
+                    <option value="5">5 - Excelente</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="feedback">Comentario:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+            </div>
+            <div class="input-group">
+                <button type="submit">Enviar Encuesta</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

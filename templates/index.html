@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('/static/fondo.png'); /* Ruta actualizada */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .chat-container {
+            width: 800px;
+            background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para la caja de chat */
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .chat-box {
+            height: 500px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .input-group {
+            display: flex;
+        }
+        .input-group input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .input-group button {
+            padding: 10px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px; /* Espacio entre el botón de enviar y el de encuesta */
+        }
+        .survey-button {
+            background-color: #28a745; /* Color verde para el botón de encuesta */
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <!-- Los mensajes del chat aparecerán aquí -->
+        </div>
+        <div class="input-group">
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
+            <button onclick="sendMessage()">Enviar</button>
+            <button onclick="openSurveyForm()" class="survey-button">Encuesta</button>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            const userInput = document.getElementById('user-input').value;
+            const chatBox = document.getElementById('chat-box');
+            
+            const userMessage = document.createElement('div');
+            userMessage.textContent = 'Tú: ' + userInput;
+            chatBox.appendChild(userMessage);
+
+            fetch('/get_response', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: userInput })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const botMessage = document.createElement('div');
+                botMessage.textContent = 'Bot: ' + data.response;
+                chatBox.appendChild(botMessage);
+            })
+            .catch(error => console.error('Error:', error));
+
+            document.getElementById('user-input').value = '';
+            chatBox.scrollTop = chatBox.scrollHeight; // Desplazar hacia abajo
+        }
+
+        function openSurveyForm() {
+            // Aquí puedes abrir una ventana emergente o redirigir a una página donde esté el formulario de encuesta
+            window.location.href = '/survey'; // Redirige a la ruta '/survey' donde está el formulario
+        }
+    </script>
+</body>
+</html>

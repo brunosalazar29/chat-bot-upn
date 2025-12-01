@@ -1,0 +1,118 @@
+Usuario: hola - Bot: Hola! Dime, ¿cómo te sientes?
+Usuario: tengo fiebre - Bot: Intenta con ibuprofeno para bajar la fiebre.
+Usuario: tengo fiebre - Bot: Te recomiendo tomar paracetamol.
+Nombre: Dr. Gustabo Bermudez
+Satisfacción: 4
+Comentario: sus recomendaciones son muy sencillas, pero si me deja entrenarlo lo volveré un doctor de verdad, buenazo
+
+Nombre: Dr. Christian Herrara
+Satisfacción: 5
+Comentario: que te puedo decir, bruno, esto es impresionante, vas a aprobar la materia
+
+Usuario: hola - Bot: Hola! ¿En qué te puedo ayudar?
+Usuario: hola - Bot: Hola! Dime, ¿cómo te sientes?
+Usuario: me siento mareado - Bot: Te recomiendo descansar y evitar movimientos bruscos.
+Usuario: me han salido erupciones a la piel - Bot: No entiendo... 'me han salido erupciones a la piel'. ¿Podrías describirlo?
+Usuario: hola - Bot: Hola! Dime, ¿cómo te sientes?
+Usuario: tengo dificultad para respirar - Bot: Usa un inhalador si tienes uno recetado. Te recomiendo sabutamol
+Usuario: tengo hemorroides - Bot: Aumenta tu consumo de fibra y agua.
+Usuario: tengo dolor muscular - Bot: Te recomiendo tomar ibuprofeno.
+Usuario: estoy con rinitis - Bot: No entiendo... 'estoy con rinitis'. ¿Podrías describirlo?
+Usuario: necesitas tomar una cetirizina - Bot: No entiendo... 'necesitas tomar una cetirizina'. ¿Podrías describirlo?
+Usuario: no significa nada - Bot: No entiendo... 'no significa nada'. ¿Podrías describirlo?
+Usuario: hola - Bot: Hola! Dime, ¿cómo te sientes?
+Usuario: tengo fiebre - Bot: Intenta con ibuprofeno para bajar la fiebre.
+Usuario: se me cayo un diente - Bot: No entiendo... 'se me cayo un diente'. ¿Podrías describirlo?
+Usuario: ve al dentista - Bot: No entiendo... 've al dentista'. ¿Podrías describirlo?
+Usuario: ve al dentista - Bot: No entiendo... 've al dentista'. ¿Podrías describirlo?
+Usuario: hola - Bot: Hola! ¿En qué te puedo ayudar?
+Usuario: me dio diarrea - Bot: No entiendo... 'me dio diarrea'. ¿Podrías describirlo?
+Usuario: caga - Bot: No entiendo... 'caga'. ¿Podrías describirlo?
+Usuario: caga - Bot: No entiendo... 'caga'. ¿Podrías describirlo?
+Usuario: caga - Bot: No entiendo... 'caga'. ¿Podrías describirlo?
+Usuario: me cai - Bot: No entiendo... 'me cai'. ¿Podrías describirlo?
+Usuario: auch - Bot: No entiendo... 'auch'. ¿Podrías describirlo?
+Usuario: me duele - Bot: No entiendo... 'me duele'. ¿Podrías describirlo?
+Usuario: me duele - Bot: No entiendo... 'me duele'. ¿Podrías describirlo?
+Usuario: es que duele - Bot: No entiendo... 'es que duele'. ¿Podrías describirlo?
+Usuario: hola - Bot: Hola! ¿En qué te puedo ayudar?
+Usuario: tengo sida - Bot: No entiendo... 'tengo sida'. ¿Podrías describirlo?
+Usuario: que tengo vih - Bot: No entiendo... 'que tengo vih'. ¿Podrías describirlo?
+Usuario:  - Bot: No entiendo... ''. ¿Podrías describirlo?
+Usuario: tengo sida - Bot: No entiendo... 'tengo sida'. ¿Podrías describirlo?
+Usuario: tengo sida - Bot: No entiendo... 'tengo sida'. ¿Podrías describirlo?
+Usuario: tengo sida - Bot: Gracias por la información. La he guardado.
+Usuario: tengo sida - Bot: pip install tensorflow
+Usuario: hola - Bot: Hola! ¿En qué te puedo ayudar?
+Usuario: tengo sida - Bot: pip install tensorflow
+Usuario: hola - Bot: Hola! ¿En qué te puedo ayudar?
+Usuario: tengo fiebre - Bot: Te recomiendo tomar paracetamol.
+Usuario: tengo dolor de garganta - Bot: Puedes tomar un poco de miel con limón para aliviar el dolor.
+Usuario: no puedo ir al baño - Bot: Intenta con un laxante como el bisacodilo.
+Usuario: estoy muy cansado - Bot: Una dieta equilibrada y ejercicio regular pueden aumentar tu energía.
+Usuario: hola - Bot: Hola! Dime, ¿cómo te sientes?
+Usuario: tengo diarrea - Bot: Te sugiero tomar loperamida.
+Usuario: soy alergico a los gatos - Bot: No entiendo... 'soy alergico a los gatos'. ¿Podrías describirlo más?
+Usuario: alejate de ellos - Bot: No entiendo... 'alejate de ellos'. ¿Podrías describirlo más?
+Usuario: soy alergico a los gatos - Bot: No entiendo... 'soy alergico a los gatos'. ¿Podrías describirlo más?
+Usuario: xfdsfdsf - Bot: No entiendo... 'xfdsfdsf'. ¿Podrías describirlo más?
+Usuario: hola - Bot: Hola! Dime, ¿cómo te sientes?
+Usuario: asdasdsa - Bot: No entiendo... 'asdasdsa'. ¿Podrías describirlo más?
+Usuario: es chuza - Bot: No entiendo... 'es chuza'. ¿Podrías describirlo más?
+Usuario: hola - Bot: No entiendo... 'hola'. ¿Podrías describirlo más?
+Usuario: hola - Bot: No entiendo... 'hola'. ¿Podrías describirlo más?
+Usuario: es hola - Bot: No entiendo... 'es hola'. ¿Podrías describirlo más?
+Usuario: hola - Bot: No entiendo... 'hola'. ¿Podrías describirlo más?
+Usuario: nuevo - Bot: Okay, escribe el síntoma.
+Usuario: sida - Bot: Ahora escribe la respuesta.
+Usuario: pegate un tiro - Bot: Tu información se guardó correctamente.
+Usuario: sida - Bot: No entiendo... 'sida'. ¿Podrías describirlo más?
+Usuario: siento picazón en la piel - Bot: No entiendo... 'siento picazón en la piel'. ¿Podrías describirlo más?
+Usuario: siento picazón en la piel - Bot: No entiendo... 'siento picazón en la piel'. ¿Podrías describirlo más?
+Usuario: siento picazón en la piel - Bot: No entiendo... 'siento picazón en la piel'. ¿Podrías describirlo más?
+Usuario: hola - Bot: 
+Usuario: hola - Bot: Hola! ¿En qué te puedo ayudar?
+Usuario: tengo fiebre - Bot: Te recomiendo tomar paracetamol.
+Usuario: me da nauseas - Bot: No entiendo... 'me da nauseas'. ¿Podrías describirlo?
+Usuario: no - Bot: No entiendo... 'no'. ¿Podrías describirlo?
+Usuario: asdasdasd - Bot: No entiendo... 'asdasdasd'. Si quieres me lo puedes enseñar, diciendo nuevo.
+Usuario: nuevo - Bot: Okay, escribe el síntoma.
+Usuario: tengo dolor de ojos - Bot: Ahora escribe la respuesta.
+Usuario: use un gotero - Bot: Tu información se guardó correctamente.
+Usuario: tengo dolor de ojos - Bot: use un gotero
+Usuario: tengo dolor de ojos - Bot: use un gotero
+Usuario: nuevo - Bot: Okay, escribe el síntoma.
+Usuario: me caia a un pozo - Bot: Ahora escribe la respuesta.
+Usuario: suba la escalera ps asqueroso - Bot: Tu información se guardó correctamente.
+Usuario: me caia a un pozo - Bot: suba la escalera ps asqueroso
+Usuario: hola - Bot: Hola! Dime, ¿cómo te sientes?
+Usuario: bien - Bot: No entiendo... 'bien'. Si quieres me lo puedes enseñar, diciendo nuevo.
+Usuario: nuevo - Bot: Okay, escribe el síntoma.
+Usuario: bien - Bot: Ahora escribe la respuesta.
+Usuario: Me alegra que este bien :D - Bot: Tu información se guardó correctamente.
+Usuario: bien - Bot: Me alegra que este bien :D
+Usuario: hola - Bot: Hola! Dime, ¿cómo te sientes?
+Usuario: hola - Bot: Hola! Dime, ¿cómo te sientes?
+Usuario: tengo fiebre - Bot: Te recomiendo tomar paracetamol.
+Usuario: y despues - Bot: No entiendo... 'y despues'. Si quieres me lo puedes enseñar, diciendo nuevo.
+Usuario: tengo dolor de cabeza - Bot: Intenta con un analgésico como el paracetamol.
+Usuario: como te llamas? - Bot: No entiendo... 'como te llamas?'. Si quieres me lo puedes enseñar, diciendo nuevo.
+Usuario: no estare embarazado - Bot: No entiendo... 'no estare embarazado'. Si quieres me lo puedes enseñar, diciendo nuevo.
+Usuario: nuevo - Bot: Okay, escribe el síntoma.
+Usuario: estoy preñado - Bot: Ahora escribe la respuesta.
+Usuario:  - Bot: Tu información se guardó correctamente.
+Usuario: estoy preñado - Bot: 
+Usuario: nuevo - Bot: Okay, escribe el síntoma.
+Usuario: estoy gordo - Bot: Ahora escribe la respuesta.
+Usuario: deja la pizza - Bot: Tu información se guardó correctamente.
+Usuario: estoy gordo - Bot: deja la pizza
+Usuario: pideme una pizza - Bot: No entiendo... 'pideme una pizza'. Si quieres me lo puedes enseñar, diciendo nuevo.
+Usuario: que hago con la paola - Bot: No entiendo... 'que hago con la paola'. Si quieres me lo puedes enseñar, diciendo nuevo.
+Usuario: tengo erupciones en la piel - Bot: La hidrocortisona puede ayudar a reducir la inflamación.
+Usuario: Hola - Bot: Hola! ¿En qué te puedo ayudar?
+Usuario: tengo fiebre - Bot: Te recomiendo tomar paracetamol.
+Usuario: me duele diente - Bot: No entiendo... 'me duele diente'. Si quieres me lo puedes enseñar, diciendo nuevo.
+Usuario: nuevo - Bot: Okay, escribe el síntoma.
+Usuario: dolor de muela - Bot: Ahora escribe la respuesta.
+Usuario: le recomiendo visitar a un dentista - Bot: Tu información se guardó correctamente.
+Usuario: dolor de muela - Bot: le recomiendo visitar a un dentista
